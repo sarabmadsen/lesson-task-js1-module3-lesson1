@@ -23,8 +23,7 @@ https://api.rawg.io/api/games?platforms=4&genres=action&publishers=354
 - Create an async function called `getCatFacts`.
 - Inside the function make an API call to the below URL using async/await, and save it to a variable called `response`.
 - Create a variable called `results` where you await the json of your response variable.
-- Create a variable called `facts` and set it equal to `results.all`.
-- Console.log the length of `facts`.
+- Console.log the length of `results`.
 
 ```
 https://cat-fact.herokuapp.com/facts
